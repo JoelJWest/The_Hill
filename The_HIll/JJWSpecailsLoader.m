@@ -20,7 +20,7 @@
     
     if (self){
         
-        NSURL *url = [[NSURL alloc] initWithString:@"http://uni.edu/westjae/TheHill/TestJSON/Untitled-11.php"];
+        NSURL *url = [[NSURL alloc] initWithString:@"http://uni.edu/westjae/The_Hill/Mobile_Scripts/FetchSpecialsScript.php"];
         NSData *data = [[NSData alloc] initWithContentsOfURL:url];
         NSError *e = nil;
         NSArray *array = [NSJSONSerialization JSONObjectWithData:data
