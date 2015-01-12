@@ -1,0 +1,239 @@
+<html>
+<head>
+    <title>The Dealio</title>
+    <link rel="stylesheet" type="text/css" href="slick-1.3-2.15/slick/slick.css"/>
+    <style type="text/css">
+    body{
+        margin: 0px;
+       
+    }
+    #wrapper{
+        background-image: url(Images/BeerBackground.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-attachment: fixed;
+        background-size: cover;
+        
+        margin: 0px;
+        position: relative;
+        
+         
+    }
+    nav{
+        background-color: black;
+        height: 70px;
+        opacity: .7;
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+    }
+        nav ul{
+            text-align: right;
+            padding-right: 20px;
+        }
+        nav li{
+            display: inline-block;
+            list-style-type: none;
+            padding-right: 20px;
+        }
+        nav li a{
+            text-decoration: none;
+            color:white;
+            line-height: 35px;
+            padding-top: 27px;
+            padding-bottom: 27px;
+            padding-left: 10px;
+            padding-right: 10px;
+          
+        }
+        nav li a#logIn{
+        
+            color:#E2901A;
+            font-weight:800;
+        }
+        nav li a:hover{
+            background-color: gray;
+        }
+    section#page1{
+        height: 100vh;
+    }
+        section#page1 h1{
+            
+            color:white;
+            font-size: 250px;
+            position: absolute;
+            margin-top: 180px;
+            padding-left: 55px;
+            opacity: .7;
+            display: inline-block;  
+            overflow: hidden;
+            white-space: nowrap;
+            font-family:serif;
+        }
+        section#page1 h2{
+            
+            color:white;
+            font-size: 50px;
+            margin-top: 450px;
+            padding-left:485px;
+            opacity: .7;
+            display: inline-block;  
+            overflow: hidden;
+            white-space: nowrap;
+            font-family: sans-serif;
+            
+        }
+    section#ourCompany{
+        height:100vh;
+        background-color: white;
+        opacity: 1;
+
+        
+    }
+        section#ourCompany #left{
+            width: 60%;
+            background-color: white;
+            display: inline-block;
+            height: 100%;
+            
+        }
+        section#ourCompany #right{
+            width:40%;
+            background-color: white;
+            display: inline-block;
+            float: right;
+            height: 100%
+        }
+        section#ourCompany h2{
+            padding-top:150px;
+            text-align: center;
+            padding-bottom: 0px;
+            font-size: 50px;
+            margin-bottom: 0px;
+            color:#E2901A;
+            font-family:sans-serif;
+        }
+        section#ourCompany p{
+            background: white;
+            padding-top: 20px;
+            padding-left: 120px;
+            margin-right: 20px;
+            margin-top: 0px;
+            font-size: 18px;
+            color:#4d4d4d;
+            line-height: 22px;
+            font-family:serif;
+            text-align: justify;
+            
+            width: 68%;
+        }
+        section#ourCompany img{
+          width: 90%;
+          padding-left: 5%;
+          padding-top: 20%;
+           
+        }
+    section#ourTeam{
+        height:100vh;
+        background-color: black;
+        opacity: .9;
+
+        
+    }
+    section#logIn{
+        height:100vh;
+       
+        
+    }
+            section#logIn #logInBox{
+                display: inline-block;
+                width: 35%;
+                height: 70%;
+                background-color:white;
+                opacity: .85;
+                margin-left: 33%;
+                margin-top: 10%;
+                
+            }
+
+    #ourCompany:target{
+        
+        transition: all .8;
+    }
+    .slick-prev {
+    margin-left: 40px;
+       background-color: black;
+  }
+
+  .slick-next {
+    margin-right: 40px;
+      background-color: black;
+  }
+  .your-class{
+      background-color: transparent;
+  } 
+  
+        
+
+
+    </style>    
+</head>
+<body>
+<div id="wrapper">
+    <nav>
+        <ul>
+            <li><a href="#page1" class="smoothScroll">Home</a></li>
+            <li><a href="#ourCompany" class="smoothScroll">Our Company</a></li>
+            <li><a href="#ourTeam" class="smoothScroll">Our Team</a></li>
+            <li><a href="#logIn" class="smoothScroll"><font color="#E2901A"><b>Log In</b></font></a></li>
+        </ul>
+    </nav>
+    <section id="page1" name="Home">
+    
+        <h1>The Dealio</h1>
+        <h2>The best way to find local deals.</h2>
+    
+    </section>
+    <section id="ourCompany" name="Our Company">
+        <div id="left">
+            <h2>The Hill</h2>
+            <p>Est quis imitarentur ad cernantur tamen veniam senserit ipsum, nisi senserit 
+                coniunctione, summis a laboris, minim quamquam distinguantur, culpa si possumus 
+                qui duis est te culpa nescius philosophari, laboris ne commodo. Ex ad 
+                illustriora. Nam cupidatat se tempor. Iudicem dolore varias ubi sint aut esse 
+                est et culpa quibusdam quo fabulas aut consequat, legam ab pariatur si in esse 
+                eram eram commodo, de aliqua minim fugiat expetendis e nostrud nisi qui offendit 
+                familiaritatem, fabulas fore veniam te elit. Illum possumus cohaerescant eu quae 
+                nostrud cupidatat te expetendis duis o arbitror cohaerescant, singulis te aute. 
+                Eram vidisse est multos irure, si cillum do nulla. Ab anim nisi ad proident.</p>
+        </div>
+        <div id="right">
+         
+        <img src="/Images/iphones.jpg">
+        </div>
+    
+    </section>
+    <section id="ourTeam" name="ourTeam">
+    
+    
+    
+    
+    </section>
+    <section id="logIn">
+         
+    </section >
+    <div class="fademe">
+    adsfasdfsdafasdf
+    </div>
+   
+    
+    
+    
+    
+</div>  
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="smoothscroll.js"></script>
+    
+</body>
+</html>
