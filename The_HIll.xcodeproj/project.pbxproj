@@ -22,6 +22,7 @@
 		28B237B01A63754B00A49B6B /* JJWTableViewCellAlt.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28B237AC1A63754B00A49B6B /* JJWTableViewCellAlt.xib */; };
 		28B237B41A63755300A49B6B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B237B21A63755300A49B6B /* MainViewController.m */; };
 		28B237B51A63755300A49B6B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28B237B31A63755300A49B6B /* MainViewController.xib */; };
+		38BE0E4D1A644B6300DC150D /* JSON Format Refrence in Resources */ = {isa = PBXBuildFile; fileRef = 38BE0E4C1A644B6300DC150D /* JSON Format Refrence */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		28B237B11A63755300A49B6B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		28B237B21A63755300A49B6B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		28B237B31A63755300A49B6B /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		38BE0E4C1A644B6300DC150D /* JSON Format Refrence */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "JSON Format Refrence"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				28B237A21A63754300A49B6B /* JJWSpecailsLoader.m */,
 				28B237A31A63754300A49B6B /* JJWSpecial.h */,
 				28B237A41A63754300A49B6B /* JJWSpecial.m */,
+				38BE0E4C1A644B6300DC150D /* JSON Format Refrence */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28B237811A63750000A49B6B /* Main.storyboard in Resources */,
+				38BE0E4D1A644B6300DC150D /* JSON Format Refrence in Resources */,
 				28B237B51A63755300A49B6B /* MainViewController.xib in Resources */,
 				28B237B01A63754B00A49B6B /* JJWTableViewCellAlt.xib in Resources */,
 				28241EB11A63B17C00EF7EFA /* Background.jpg in Resources */,
