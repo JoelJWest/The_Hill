@@ -18,7 +18,12 @@
 
 @implementation MainViewController
 
-- (void)viewDidLoad {
+-(void)viewWillAppear:(BOOL)animated{
+  
+    
+}
+
+-(void)viewDidLoad {
     
     [super viewDidLoad];
     NSBundle *main = [NSBundle mainBundle];
@@ -30,7 +35,7 @@
 }
 
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
     return [self.loader.specials count];
     
@@ -49,7 +54,8 @@
     cell.specialTitle.text = special.specialTitle;
     cell.specialStartTime.text = [dateFormatter stringFromDate:special.specialStartTime];
     cell.specialEndTime.text = [dateFormatter stringFromDate:special.specialEndTime];
-        
+    cell.barImage.image = [special loadImage];
+    
     return cell;
     
 }

@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface JJWSpecial : NSObject
 
@@ -24,5 +25,6 @@
 @property (nonatomic) BOOL saturday;
 
 -(instancetype)initWithSpecial:(NSDictionary *)specialDict;
+-(UIImage *)loadImage;
 
 @end

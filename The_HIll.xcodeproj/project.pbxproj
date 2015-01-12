@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28241EB11A63B17C00EF7EFA /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28241EB01A63B17C00EF7EFA /* Background.jpg */; };
 		28B237781A63750000A49B6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B237771A63750000A49B6B /* main.m */; };
 		28B237811A63750000A49B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B2377F1A63750000A49B6B /* Main.storyboard */; };
 		28B237831A63750000A49B6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B237821A63750000A49B6B /* Images.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28241EB01A63B17C00EF7EFA /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
 		28B237721A63750000A49B6B /* The_HIll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = The_HIll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B237761A63750000A49B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28B237771A63750000A49B6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28241EAF1A63B16E00EF7EFA /* Background Images */ = {
+			isa = PBXGroup;
+			children = (
+				28241EB01A63B17C00EF7EFA /* Background.jpg */,
+			);
+			name = "Background Images";
+			sourceTree = "<group>";
+		};
 		28B237691A63750000A49B6B = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +125,7 @@
 		28B237751A63750000A49B6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28241EAF1A63B16E00EF7EFA /* Background Images */,
 				28B237761A63750000A49B6B /* Info.plist */,
 				28B237771A63750000A49B6B /* main.m */,
 			);
@@ -255,6 +266,7 @@
 				28B237811A63750000A49B6B /* Main.storyboard in Resources */,
 				28B237B51A63755300A49B6B /* MainViewController.xib in Resources */,
 				28B237B01A63754B00A49B6B /* JJWTableViewCellAlt.xib in Resources */,
+				28241EB11A63B17C00EF7EFA /* Background.jpg in Resources */,
 				28B237861A63750000A49B6B /* LaunchScreen.xib in Resources */,
 				28B237831A63750000A49B6B /* Images.xcassets in Resources */,
 				28B237AE1A63754B00A49B6B /* JJWTableViewCell.xib in Resources */,
@@ -472,6 +484,7 @@
 				28B237971A63750000A49B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28B237981A63750000A49B6B /* Build configuration list for PBXNativeTarget "The_HIllTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +493,7 @@
 				28B2379A1A63750000A49B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

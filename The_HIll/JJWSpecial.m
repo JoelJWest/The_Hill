@@ -40,6 +40,14 @@
     return date;
 }
 
+-(UIImage *)loadImage{
+    
+    NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://uni.edu/westjae/The_Hill/Mobile_Scripts/Images/bar_%li.png",self.barNumber]]];
+    UIImage *barImage = [[UIImage alloc] initWithData:data];
+    
+    return barImage;
+}
+
 @end
 
 
