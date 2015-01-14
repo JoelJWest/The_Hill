@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
@@ -19,19 +20,27 @@
                     <rect key="frame" x="0.0" y="0.0" width="384" height="1418"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                 </imageView>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fXy-mA-QNA">
-                    <rect key="frame" x="0.0" y="0.0" width="384" height="80"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fXy-mA-QNA">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Dealio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hxp-Si-Xan">
-                            <rect key="frame" x="57" y="8" width="204" height="64"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Dealio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hxp-Si-Xan">
+                            <rect key="frame" x="62" y="9" width="195" height="62"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Hxp-Si-Xan" secondAttribute="height" multiplier="195:62" id="wjm-Lu-7lo"/>
+                            </constraints>
                             <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="42"/>
                             <color key="textColor" red="0.93333333333333335" green="0.70980392156862748" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.84999999999999998" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="centerY" secondItem="Hxp-Si-Xan" secondAttribute="centerY" id="fyR-Ra-eso"/>
+                        <constraint firstAttribute="centerX" secondItem="Hxp-Si-Xan" secondAttribute="centerX" constant="1" id="pTR-3N-V54"/>
+                        <constraint firstAttribute="height" constant="80" id="sPE-Xd-xhZ"/>
+                    </constraints>
                 </view>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" rowHeight="100" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="5Ep-L2-qUv">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" rowHeight="100" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="5Ep-L2-qUv">
                     <rect key="frame" x="8" y="94" width="304" height="466"/>
                     <color key="backgroundColor" white="1" alpha="0.84999999999999998" colorSpace="calibratedWhite"/>
                     <connections>
@@ -41,6 +50,15 @@
                 </tableView>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="5Ep-L2-qUv" firstAttribute="top" secondItem="fXy-mA-QNA" secondAttribute="bottom" constant="14" id="7hj-EI-Psk"/>
+                <constraint firstItem="5Ep-L2-qUv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="G0X-MP-2vK"/>
+                <constraint firstAttribute="bottom" secondItem="5Ep-L2-qUv" secondAttribute="bottom" constant="8" id="TO3-cG-4Gq"/>
+                <constraint firstAttribute="trailing" secondItem="5Ep-L2-qUv" secondAttribute="trailing" constant="8" id="Try-2h-5oe"/>
+                <constraint firstItem="fXy-mA-QNA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="a7k-Yy-ufc"/>
+                <constraint firstAttribute="trailing" secondItem="fXy-mA-QNA" secondAttribute="trailing" id="lfD-JV-Ge5"/>
+                <constraint firstItem="fXy-mA-QNA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="mbi-WS-Vd1"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <point key="canvasLocation" x="259" y="254"/>
         </view>
