@@ -45,7 +45,7 @@
     
     JJWTableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"Cell1"];
    
-    NSDictionary *dictToDisplay = [self.loader.specials valueForKey:[NSString stringWithFormat:@"%lu",indexPath.row+1]];
+    NSDictionary *dictToDisplay = [self.loader.specials valueForKey:[NSString stringWithFormat:@"%d",indexPath.row+1]];
     JJWSpecial *special = [[JJWSpecial alloc] initWithSpecial:dictToDisplay];
     
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
