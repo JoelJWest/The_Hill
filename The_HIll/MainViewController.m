@@ -12,6 +12,7 @@
 #import "JJWSpecailsLoader.h"
 #import "JJWSpecial.h"
 
+
 @interface MainViewController ()
 @property (nonatomic,strong) JJWSpecailsLoader *loader;
 @end
@@ -62,6 +63,6 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    
+
 }
 @end
