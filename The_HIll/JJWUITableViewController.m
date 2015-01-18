@@ -13,14 +13,10 @@
 #import "JJWSpecial.h"
 #import "JJWDetailUIViewController.h"
 
-<<<<<<< HEAD:The_HIll/MainViewController.m
 
-@interface MainViewController ()
-@property (nonatomic,strong) JJWSpecailsLoader *loader;
-=======
+
 @interface JJWUITableViewController ()
 @property (nonatomic, strong) JJWSpecailsLoader *loader;
->>>>>>> nav:The_HIll/JJWUITableViewController.m
 @end
 
 @implementation JJWUITableViewController
@@ -70,15 +66,11 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
-<<<<<<< HEAD:The_HIll/MainViewController.m
 
-=======
     JJWDetailUIViewController *detailedView = [[JJWDetailUIViewController alloc] initWithNibName:@"JJWDetailUIViewController" bundle:[NSBundle mainBundle]];
 
     [self.navigationController pushViewController:detailedView animated:YES];
-   
->>>>>>> nav:The_HIll/JJWUITableViewController.m
+
 }
 
 @end
