@@ -1,27 +1,35 @@
 //
-//  MainViewController.m
-//  Testing
+//  JJWUITableViewController.m
+//  The_HIll
 //
-//  Created by Joel West on 1/9/15.
+//  Created by Joel J. West on 1/18/15.
 //  Copyright (c) 2015 Big Nerd Ranch. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "JJWUITableViewController.h"
 #import "JJWTableViewCell.h"
 #import "JJWTableViewCellAlt.h"
 #import "JJWSpecailsLoader.h"
 #import "JJWSpecial.h"
+#import "JJWDetailUIViewController.h"
 
+<<<<<<< HEAD:The_HIll/MainViewController.m
 
 @interface MainViewController ()
 @property (nonatomic,strong) JJWSpecailsLoader *loader;
+=======
+@interface JJWUITableViewController ()
+@property (nonatomic, strong) JJWSpecailsLoader *loader;
+>>>>>>> nav:The_HIll/JJWUITableViewController.m
 @end
 
-@implementation MainViewController
+@implementation JJWUITableViewController
+
 
 -(void)viewWillAppear:(BOOL)animated{
-  
     
+    self.navigationController.title = @"Today's Specials";
+
 }
 
 -(void)viewDidLoad {
@@ -30,7 +38,7 @@
     NSBundle *main = [NSBundle mainBundle];
     [self.tableView registerNib:[UINib nibWithNibName:@"JJWTableViewCell" bundle:main] forCellReuseIdentifier:@"Cell1"];
     [self.tableView registerNib:[UINib nibWithNibName:@"JJWTableViewCellAlt" bundle:main] forCellReuseIdentifier:@"Cell2"];
-
+    
     self.loader = [[JJWSpecailsLoader alloc] init];
     
 }
@@ -45,7 +53,7 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     JJWTableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"Cell1"];
-   
+    
     NSDictionary *dictToDisplay = [self.loader.specials valueForKey:[NSString stringWithFormat:@"%ld",indexPath.row+1]];
     JJWSpecial *special = [[JJWSpecial alloc] initWithSpecial:dictToDisplay];
     
@@ -63,6 +71,14 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
+<<<<<<< HEAD:The_HIll/MainViewController.m
 
+=======
+    JJWDetailUIViewController *detailedView = [[JJWDetailUIViewController alloc] initWithNibName:@"JJWDetailUIViewController" bundle:[NSBundle mainBundle]];
+
+    [self.navigationController pushViewController:detailedView animated:YES];
+   
+>>>>>>> nav:The_HIll/JJWUITableViewController.m
 }
+
 @end
