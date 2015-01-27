@@ -42,7 +42,7 @@
 
 -(UIImage *)loadImage{
     
-    NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://uni.edu/westjae/The_Hill/Mobile_Scripts/Images/bar_%li.png",self.barNumber]]];
+    NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://uni.edu/westjae/The_Hill/Mobile_Scripts/Images/BarLogoBarNumber_%li.png",self.barNumber]]];
     UIImage *barImage = [[UIImage alloc] initWithData:data];
     
     return barImage;
@@ -51,4 +51,3 @@
 @end
 
 
-//[{"SpecialNumber":"1","BarNumber":"1","Special Title":"$1 off Domestic","SpecialStartTime":"21:00:00","SpecialEndTime":"00:00:00","SpecialDescription":"$1 off all domestic beers this weekend after 9:00pm!","Sunday":"1","Monday":"0","Tuesday":"0","Wednesday":"0","Thursday":"0","Friday":"1","Saturday":"1"}]

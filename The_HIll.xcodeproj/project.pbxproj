@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		28241EB11A63B17C00EF7EFA /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28241EB01A63B17C00EF7EFA /* Background.jpg */; };
+		2863986B1A68D5150050C41F /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 286398691A68D5150050C41F /* settings.png */; };
+		2863986C1A68D5150050C41F /* taxiWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 2863986A1A68D5150050C41F /* taxiWhite.png */; };
 		28B237781A63750000A49B6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B237771A63750000A49B6B /* main.m */; };
-		28B237811A63750000A49B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B2377F1A63750000A49B6B /* Main.storyboard */; };
 		28B237831A63750000A49B6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B237821A63750000A49B6B /* Images.xcassets */; };
 		28B237861A63750000A49B6B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28B237841A63750000A49B6B /* LaunchScreen.xib */; };
 		28B237921A63750000A49B6B /* The_HIllTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B237911A63750000A49B6B /* The_HIllTests.m */; };
@@ -20,8 +21,11 @@
 		28B237AE1A63754B00A49B6B /* JJWTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28B237A91A63754B00A49B6B /* JJWTableViewCell.xib */; };
 		28B237AF1A63754B00A49B6B /* JJWTableViewCellAlt.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B237AB1A63754B00A49B6B /* JJWTableViewCellAlt.m */; };
 		28B237B01A63754B00A49B6B /* JJWTableViewCellAlt.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28B237AC1A63754B00A49B6B /* JJWTableViewCellAlt.xib */; };
-		28B237B41A63755300A49B6B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B237B21A63755300A49B6B /* MainViewController.m */; };
-		28B237B51A63755300A49B6B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28B237B31A63755300A49B6B /* MainViewController.xib */; };
+		386FC7C01A6BAEED00061E1A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386FC7BF1A6BAEED00061E1A /* Storyboard.storyboard */; };
+		386FC7C31A6BB11D00061E1A /* JJWUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386FC7C21A6BB11D00061E1A /* JJWUITableViewController.m */; };
+		386FC7C71A6BBA0D00061E1A /* JJWDetailUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386FC7C51A6BBA0D00061E1A /* JJWDetailUIViewController.m */; };
+		386FC7C81A6BBA0D00061E1A /* JJWDetailUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386FC7C61A6BBA0D00061E1A /* JJWDetailUIViewController.xib */; };
+		38BE0E4D1A644B6300DC150D /* JSON Format Refrence in Resources */ = {isa = PBXBuildFile; fileRef = 38BE0E4C1A644B6300DC150D /* JSON Format Refrence */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +40,11 @@
 
 /* Begin PBXFileReference section */
 		28241EB01A63B17C00EF7EFA /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
+		286398691A68D5150050C41F /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		2863986A1A68D5150050C41F /* taxiWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taxiWhite.png; sourceTree = "<group>"; };
 		28B237721A63750000A49B6B /* The_HIll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = The_HIll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B237761A63750000A49B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28B237771A63750000A49B6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		28B237801A63750000A49B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28B237821A63750000A49B6B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		28B237851A63750000A49B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		28B2378B1A63750000A49B6B /* The_HIllTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = The_HIllTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,9 +62,13 @@
 		28B237AA1A63754B00A49B6B /* JJWTableViewCellAlt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJWTableViewCellAlt.h; sourceTree = "<group>"; };
 		28B237AB1A63754B00A49B6B /* JJWTableViewCellAlt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJWTableViewCellAlt.m; sourceTree = "<group>"; };
 		28B237AC1A63754B00A49B6B /* JJWTableViewCellAlt.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJWTableViewCellAlt.xib; sourceTree = "<group>"; };
-		28B237B11A63755300A49B6B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		28B237B21A63755300A49B6B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		28B237B31A63755300A49B6B /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		386FC7BF1A6BAEED00061E1A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		386FC7C11A6BB11D00061E1A /* JJWUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJWUITableViewController.h; sourceTree = "<group>"; };
+		386FC7C21A6BB11D00061E1A /* JJWUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJWUITableViewController.m; sourceTree = "<group>"; };
+		386FC7C41A6BBA0D00061E1A /* JJWDetailUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JJWDetailUIViewController.h; path = ../JJWDetailUIViewController.h; sourceTree = "<group>"; };
+		386FC7C51A6BBA0D00061E1A /* JJWDetailUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JJWDetailUIViewController.m; path = ../JJWDetailUIViewController.m; sourceTree = "<group>"; };
+		386FC7C61A6BBA0D00061E1A /* JJWDetailUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JJWDetailUIViewController.xib; path = ../JJWDetailUIViewController.xib; sourceTree = "<group>"; };
+		38BE0E4C1A644B6300DC150D /* JSON Format Refrence */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "JSON Format Refrence"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +97,15 @@
 			name = "Background Images";
 			sourceTree = "<group>";
 		};
+		2863986D1A68D5180050C41F /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				286398691A68D5150050C41F /* settings.png */,
+				2863986A1A68D5150050C41F /* taxiWhite.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
 		28B237691A63750000A49B6B = {
 			isa = PBXGroup;
 			children = (
@@ -111,7 +129,7 @@
 			children = (
 				28B2379B1A63751700A49B6B /* AppDelegate.h */,
 				28B2379C1A63751700A49B6B /* AppDelegate.m */,
-				28B2377F1A63750000A49B6B /* Main.storyboard */,
+				386FC7BF1A6BAEED00061E1A /* Storyboard.storyboard */,
 				28B237A01A63753900A49B6B /* ViewControllers */,
 				28B2379F1A63752E00A49B6B /* TableView */,
 				28B2379E1A63752100A49B6B /* Data */,
@@ -125,6 +143,7 @@
 		28B237751A63750000A49B6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2863986D1A68D5180050C41F /* Icons */,
 				28241EAF1A63B16E00EF7EFA /* Background Images */,
 				28B237761A63750000A49B6B /* Info.plist */,
 				28B237771A63750000A49B6B /* main.m */,
@@ -156,6 +175,7 @@
 				28B237A21A63754300A49B6B /* JJWSpecailsLoader.m */,
 				28B237A31A63754300A49B6B /* JJWSpecial.h */,
 				28B237A41A63754300A49B6B /* JJWSpecial.m */,
+				38BE0E4C1A644B6300DC150D /* JSON Format Refrence */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -176,9 +196,11 @@
 		28B237A01A63753900A49B6B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				28B237B11A63755300A49B6B /* MainViewController.h */,
-				28B237B21A63755300A49B6B /* MainViewController.m */,
-				28B237B31A63755300A49B6B /* MainViewController.xib */,
+				386FC7C11A6BB11D00061E1A /* JJWUITableViewController.h */,
+				386FC7C21A6BB11D00061E1A /* JJWUITableViewController.m */,
+				386FC7C41A6BBA0D00061E1A /* JJWDetailUIViewController.h */,
+				386FC7C51A6BBA0D00061E1A /* JJWDetailUIViewController.m */,
+				386FC7C61A6BBA0D00061E1A /* JJWDetailUIViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -263,13 +285,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28B237811A63750000A49B6B /* Main.storyboard in Resources */,
-				28B237B51A63755300A49B6B /* MainViewController.xib in Resources */,
+				2863986C1A68D5150050C41F /* taxiWhite.png in Resources */,
+				38BE0E4D1A644B6300DC150D /* JSON Format Refrence in Resources */,
 				28B237B01A63754B00A49B6B /* JJWTableViewCellAlt.xib in Resources */,
 				28241EB11A63B17C00EF7EFA /* Background.jpg in Resources */,
 				28B237861A63750000A49B6B /* LaunchScreen.xib in Resources */,
+				386FC7C81A6BBA0D00061E1A /* JJWDetailUIViewController.xib in Resources */,
+				2863986B1A68D5150050C41F /* settings.png in Resources */,
 				28B237831A63750000A49B6B /* Images.xcassets in Resources */,
 				28B237AE1A63754B00A49B6B /* JJWTableViewCell.xib in Resources */,
+				386FC7C01A6BAEED00061E1A /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,10 +313,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				28B237A51A63754300A49B6B /* JJWSpecailsLoader.m in Sources */,
+				386FC7C71A6BBA0D00061E1A /* JJWDetailUIViewController.m in Sources */,
 				28B237AD1A63754B00A49B6B /* JJWTableViewCell.m in Sources */,
 				28B2379D1A63751700A49B6B /* AppDelegate.m in Sources */,
 				28B237AF1A63754B00A49B6B /* JJWTableViewCellAlt.m in Sources */,
-				28B237B41A63755300A49B6B /* MainViewController.m in Sources */,
+				386FC7C31A6BB11D00061E1A /* JJWUITableViewController.m in Sources */,
 				28B237781A63750000A49B6B /* main.m in Sources */,
 				28B237A61A63754300A49B6B /* JJWSpecial.m in Sources */,
 			);
@@ -316,14 +342,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		28B2377F1A63750000A49B6B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				28B237801A63750000A49B6B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		28B237841A63750000A49B6B /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
